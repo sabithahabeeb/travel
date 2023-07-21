@@ -1,0 +1,408 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Solway', serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    width: 85%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.lists {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.links {
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+.links:hover {
+    color: red;
+}
+#title{
+    font-size: 50px;
+    color: orange;
+}
+#lstnme{
+    font-size: 20px;
+    color: black;
+}
+header{
+    background-image: url('https://www.usnews.com/object/image/00000157-9a29-ddc3-af5f-dbab76410000/161006-perusoftadventure-stock.jpg?update-time=1482416533634&size=responsive640');
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+}
+.wrd{
+    margin-top: 10px;
+    font-family: 'Pacifico', cursive;
+    color: black;
+    padding: 10px;
+    font-weight: 800;
+}
+.wrd1{
+font-weight: 800;
+color: black;
+}
+.cntnt{
+    display: float;
+    position: absolute;
+    right: -5px;
+    width: 25%;
+    height: 120px;
+    padding: 20px;
+}
+.title-link{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 10px;
+    right: 0px;
+    top: 0px;
+    padding: 8px 15px;
+  ;
+}
+.hony{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.honeypckage div{
+    width: 250px;
+    height: 450px;
+   text-align: center;
+   border: 1px solid;
+   margin-left: 10px;
+   padding: 10px;
+   background-color: white;
+   border-radius: 10px;
+}
+.honeypckage img{
+    width: 100%;
+}
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+.honeypckage{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.more{
+    margin-top: 50px;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+}
+.more:hover{
+    color: red;
+}
+.honeypckage h1{
+    font-size: 20px;
+}
+.honeypckage span{
+    color: red;
+}
+.head h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.row{
+    margin-top: 50px;
+}
+.north div{
+    width: 250px;
+    height: 200px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+   
+    
+}
+.north img{
+    width: 100%;
+    border-radius: 10px;
+    
+  
+}
+.north{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.content{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    top: 0px;
+   left: 0;
+   position: absolute;
+    background:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content:hover{
+    opacity: 1;
+
+}
+
+.img1{
+    position: relative;
+}
+.content h1{
+    font-size: 35px;
+    color: white;
+}
+.content h3{
+    font-size: 25px;
+    color: white;
+}
+.img2{
+    position: relative;
+}
+.content1{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    top: 0px;
+   left: 0;
+   position: absolute;
+    background:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content1 h1{
+    font-size: 35px;
+    color: white;
+}
+.content1:hover{
+    opacity: 1;
+}
+.content1 h3{
+    font-size: 25px;
+    color: white;
+}
+.img3{
+    position: relative;
+}
+.content2{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    top: 0px;
+   left: 0;
+   position: absolute;
+    background:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content2 h1{
+    font-size: 35px;
+    color: white;
+}
+.content2:hover{
+    opacity: 1;
+}
+.content2 h3{
+    font-size: 25px;
+    color: white;
+}
+.img4{
+    position: relative;
+}
+.content3{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    top: 0px;
+   left: 0;
+   position: absolute;
+    background:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content3 h1{
+    font-size: 35px;
+    color: white;
+}
+.content3:hover{
+    opacity: 1;
+}
+.content3 h3{
+    font-size: 25px;
+    color: white;
+}
+#wrd{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    color: red;
+    
+}
+.prm div{
+    width: 250px;
+    height: 300px;
+   text-align: center;
+   border: 1px solid;
+   margin-left: 10px;
+   padding: 10px;
+   background-color: beige;
+   border-radius: 50px;
+}
+.prm img{
+    width: 100%;
+    border-radius: 50%;
+}
+.prm h1{
+    font-size: 20px;
+}
+.prm a{
+    text-decoration: none;
+}
+
+.prm{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#wrd1{
+    color: blue;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.customer div{
+    width: 250px;
+    height: 300px;
+   text-align: center;
+  
+   margin-left: 10px;
+   padding: 10px;
+
+   border-radius: 50px;
+}
+.customer img{
+    width: 100%;
+}
+.customer h1{
+    font-size: 20px;
+}
+.customer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: beige;
+}
+.col-4 h2{
+    font-size: 25px;
+    color: white;
+}
+footer{
+    margin: 3rem 0px;
+    width: 100%;
+    height: 350px;
+    }
+    .icon-set{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+    }
+    .icon,.up-arrow{
+        width: 50px;
+        height: 50px;
+        /*border: 1px solid;*/
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10px;
+    }
+    .icon i{
+        font-size: 30px;
+        color: black;
+    }
+    .icon:hover{
+        background-image: linear-gradient(to bottom right,yellow, orange, rgb(244,240,240));
+    }
+    .icon:hover i{
+        color: white;
+        animation: shake 0.75s;
+    }
+    @media (max-width: 600px) {
+        .honeypckage {
+          flex: 50%;
+          max-width: 50%;
+          flex-direction: column;
+        }
+      }
+      @media (max-width: 600px) {
+        .north {
+          flex: 50%;
+          max-width: 50%;
+          flex-direction: column;
+        }
+      }
+      @media (max-width: 600px) {
+        .prm {
+          flex: 50%;
+          max-width: 50%;
+          flex-direction: column;
+        }
+      }
+      @media (max-width: 600px) {
+        .customer {
+          flex: 50%;
+          max-width: 50%;
+          flex-direction: column;
+        }
+      }
+      .checked {
+        color:green;
+      }
